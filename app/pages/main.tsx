@@ -14,7 +14,7 @@ export default function App() {
         activeChat={activeChat}
         setActiveChat={setActiveChat}
       />
-      <ChatWindow activeChat={activeChat} />
+      <ChatWindow activeChat={activeChat} setActiveChat={setActiveChat} />
     </div>
   );
 }
